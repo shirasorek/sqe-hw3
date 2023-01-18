@@ -40,7 +40,7 @@ defineEvent(SeleniumSession, "submitAssignment", function(session, e){
   session.click("/html/body/div[8]/div[3]/div/div[2]/div/div/div[2]/div/div[2]/div[1]/a[1]/div[1]/div[3]");
   session.click("/html/body/div[9]/div[3]/div/div[2]/div/div[2]/form/div[4]/div/button[1]");
 
-  // submit 
+  // submit
   session.waitForVisibility("/html/body/div[4]/div[4]/div/div[2]/div/section/div[2]/div/form/div[2]/div[2]/fieldset/div/div[1]/span/input")
   session.click("/html/body/div[4]/div[4]/div/div[2]/div/section/div[2]/div/form/div[2]/div[2]/fieldset/div/div[1]/span/input")
 })

@@ -2,30 +2,32 @@
 This is a repository for assignment 3 of the Software Quality Engineering course at the [Ben-Gurion University](https://in.bgu.ac.il/), Israel.
 
 ## Assignment Description
-In this assignment, we tested an open-source software called [$$*TODO* software name$$](https://address-of-the-project.com).
+In this assignment, we tested an open-source software called Moodle(https://address-of-the-project.com).
 
-$$*TODO* Add some general description about the software$$
+this system allows to manage academic activity including lectures, assignments, quizes and more
 
 ## Installation
-$$*TODO* Write instructions on how to install the software and prepare the testing environment$$
+to install the software please use the folling link:
+https://www.youtube.com/watch?v=gjFY_Gfrs6o
+https://www.youtube.com/watch?v=tdv_A8-EwDY
 
 ## What we tested
 $$*TODO* Add a description of the module and the user stories that you chose to test.
 For example, in the case of the Moodle example, you can write something like this:
 
-We tested the quiz module that allows for creating and taking quizzes. We chose to test the following user stories: 
+We tested the Assignment module that allows for creating and submmiting assignments. We chose to test the following user stories: 
 
-*User story:* A teacher adds a new quiz to the course with two yes/no questions
+*User story:* A student submmits an assigment
 
-*Preconditions:* There is a course with a teacher
+*Preconditions:* There is a course with a assigment
 
-*Expected outcome:* The quiz is added to the course.
+*Expected outcome:* The assigment is added
 
-*User story:* A students attempts a quiz and answers correctly.
+*User story:* A teacher deletes the submmision box
 
-*Preconditions:* There is a course with a quiz with two yes/no questions and the quiz grade is calculated automatically and the grade is visible to the students upon submission.
+*Preconditions:* There is a course with a submmision box.
 
-*Expected outcome:* The student receives 100.
+*Expected outcome:* The assigment is deleted from the course
 $$
 
 ## How we tested
@@ -37,16 +39,3 @@ Each of the testing methods is elaborated in its own directory.
 
 ## Results
 Update all README.md files (except for d-e, see Section 1). Specifically, replace all $$*TODO*…$$ according to the instructions inside the $$.
-
-## Detected Bugs
-We detected the following bugs:
-
-1. Bug 1: 
-   1. General description: ...
-   2. Steps to reproduce: ...
-   3. Expected result: ...
-   4. Actual result: ...
-   5. Link to the bug report: (you are encouraged to report the bug to the developers of the software)
-2. Bug 2: ...
-
-$$*TODO* if you did not detect the bug, you can delete this section$$  
